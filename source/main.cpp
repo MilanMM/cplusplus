@@ -13,6 +13,9 @@ int main()
 	r1 = exo1(10.0);
     // Affichage sur un terminal
     std::cout << "Hello World!" << std::endl;
+	
+	double resultat2;
+	resultat2 = exo3(20.0);
 
     return 0;
 }
