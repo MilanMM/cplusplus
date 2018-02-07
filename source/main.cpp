@@ -8,5 +8,7 @@ int main()
 {
 	long y;
 	exo1();
+	long z;
+	exo2();
 	return 0;
 }
