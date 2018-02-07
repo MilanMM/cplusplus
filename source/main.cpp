@@ -10,5 +10,8 @@ int main()
 	exo1();
 	long z;
 	exo2();
+	int w;
+	exo3();
+
 	return 0;
 }
