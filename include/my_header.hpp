@@ -3,23 +3,15 @@
 
 #ifndef MY_HEADER_HPP
 #define MY_HEADER_HPP
-#include <cmath>
-double exo1(double rayon)
+void exo1(void)
 {
-	double volume;
-	volume = (4.0/3.0) * 3.14*rayon*rayon*rayon;
-		return volume;
-}
-void exo2(short a, short b)
-{
-	short y;
-	y = a < b && !a;
-}
-double exo3(double rayon)
-{
-	double volume;
-	volume = (4.0/3.0)*pow(rayon, 3) * 3.14;
-	return volume;
+	long a = 2, b = 1, c = 0;
+	while (a + b > 0)
+	{
+		a = a - 2;
+		b = b + 1;
+		c = c + 1;
+	}
 }
 #endif // MY_HEADER_HPP
 
