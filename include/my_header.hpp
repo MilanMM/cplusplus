@@ -42,5 +42,25 @@ void exo3(void)
 	}
 	code = code - 1;
 }
+unsigned short lancer_de(void);
 
+void exo4(void)
+{
+	points = 0;
+	std::cin.get();
+		while lancer_de != 1
+		{
+			if lancer_de == 2
+				points = points + 2;
+			else if lancer_de == 4
+				points = points + 4;
+			else if lancer_de == 6
+				points = points + 6;
+			else if lancer_de == 3
+				points = points * 2;
+			else if lancer_de == 5
+				points = 0;
+			std::cin.get();
+		}
+}
 #endif // MY_HEADER_HPP
